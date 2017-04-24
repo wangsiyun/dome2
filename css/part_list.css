@@ -1,0 +1,242 @@
+.dahezi{
+	width:1370px;
+	height:921px;
+	border-bottom: 1px solid gainsboro;
+	margin:auto;
+	background:#f6f6f6;
+	margin-right:50px;
+}
+.center-2-1{
+	width: 109px;
+	height: 224px;
+	float: right;
+	margin-top:28px;
+	margin-right: 50px;
+	background-color:#fe9174;
+	border-radius:5%;
+}
+.center-2-1 ul li{
+	width: 100px;
+	margin-left: 5px;
+}
+.center-2-1 ul li:nth-child(1){
+	height:30px;
+	width:100px;
+	margin-top: 5px;
+	line-height:30px;
+}
+.center-2-1 ul li:nth-child(1){
+	background:url(../img/zj_cio.png)no-repeat;
+	background-size:30px 30px;
+}
+.center-2-1 ul li:nth-child(1):hover{
+	background-color:#fe6546;
+}
+.center-2-1 ul li:nth-child(1):hover{
+	background-color:#fe6546;
+}
+.center-2-1 ul li:nth-child(1) a{
+	margin-left:50px;
+	margin-top: 0;
+	color: white;
+}
+.center-2-1 ul li:nth-child(2){
+	height:30px;
+	background: url(../img/jiaintou.png)no-repeat;
+	width:100px;
+	line-height:30px;
+	margin-top: 5px;
+}
+.center-2-1 ul li:nth-child(2):hover{
+	background-color:#fe6546;
+}
+.center-2-1 ul li:nth-child(2) a{
+	color: white;
+	margin-left:50px;
+    top:10px;
+}
+
+.center-2-1 ul li:nth-child(3){
+	height:105px;
+	margin-top: 10px;
+	background: url(../img/weixin.jpg)no-repeat center;
+	background-size:cover;
+	margin-right: 5px;
+}
+.center-2-1 ul li:nth-child(4){
+	height:24px;
+	color: white;
+	padding-top:2px;
+}
+.center-2-1 ul li P{
+	margin-left:40px;
+	margin-top:10px;
+	color: white;
+}
+.hong{
+	width: 100%;
+	min-width: 1300px;
+	height: 180px;
+	background: #FE6546;
+	position: relative;
+}
+.hong>p{
+	text-align: center;
+	line-height: 140px;
+	font-size: 30px;
+	color: white;
+}
+.bai{
+	width: 1000px;
+	height: 40px;
+	position: absolute;
+    bottom: 0px;
+    left: 50%;
+    margin-left: -500px;
+	background: white;
+}
+.bai>p{
+	width: 1000px;
+	height: 40px;
+	line-height: 40px;
+	float: right;	
+}
+.bai>p>span{
+	margin: 0 10px;
+    color: orangered;
+    font-weight: bold;
+}
+/*中间*/
+.center-3{
+	width:1000px;
+     height:920px;	
+     margin:auto;
+}
+.center-3-1 ul li p{
+	float: left;
+	width: 25px;
+	height: 25px;
+	margin: 5px;
+	line-height:25px;
+	text-align:center;
+	background:gainsboro;
+}
+.center-3-1{
+	width: 925px;
+	height: 120px;
+	margin: auto;
+	margin-top:30px;
+	border: 1px solid gainsboro;
+}
+.center3-1-1{
+	width:470px;
+	height:113px;
+	float:left;
+}
+.center3-1-1 ul li{
+	float: left;
+}
+.center3-1-1 ul li:nth-child(1){
+	width:98px;
+	height:110px;
+/*	background:url(../img/1_03.png)no-repeat;*/
+	
+}
+.center3-1-1 ul li:nth-child(2){
+	margin-top: 50px;
+	margin-left:48px;
+	font-size: 15px;
+}
+.center3-1-1 ul li:nth-child(3){
+	margin-top: 50px;
+	margin-left:130px;
+	color:#fe6546;
+	font-size: 15px;
+}
+
+.center3-1-2{
+	width:146px;
+	height:35px;
+	float:right;
+    margin-top:45px;
+}
+.center3-1-2 ul li p:hover{
+	background:#fe6546;
+	color: white;
+}
+.center3-1-2 ul li input{
+	width:23px;
+	height:23px;
+    border:none;
+    text-align: center;
+    background: gainsboro;
+}
+.center3-1-2 ul li{
+	margin-left:30px;
+}
+.center-last{
+	width: 410px;
+	height: 140px;
+	float: right;
+}
+.center-last img{
+	float: right;
+	margin-top:40px;
+	margin-right:80px;
+}
+.center-last ul{
+	width:303px;
+	height:42px;
+   margin-top:71px;
+   margin-left:84px;
+}
+.center-last ul li{
+	float:left;
+	margin:5px;
+}
+.center-last ul li input{
+	margin-top:15px;
+	width:20px;
+	height:20px;
+}
+.center-last ul li:nth-child(2){
+	font-size:20px;
+	color: #fe6546;
+	margin-top:15px;
+	text-align: center;
+}
+.center-last ul li:nth-child(3) a{
+	width: 75px;
+	height:30px;
+	display: block;
+	color:white;
+	line-height:30px;
+	padding-left:20px;
+	background:#fe6546;
+}
+.center-last ul li a{
+	color: #fe6546;
+}
+/*底部*/
+.button8{
+	width:100%;
+	height:91px;
+	margin: auto;
+	position: relative;
+   min-width:1300px;
+	background:#333333;
+}
+.button8 ul{
+	height:80px;
+	width:1000px;
+	margin: auto;
+	margin-left:100px;
+	position: absolute;
+	margin-top:2px;
+}
+.button8 ul li{
+	color:white;
+	font-size:14px; 
+	margin-top:10px;
+	text-align:center;
+}

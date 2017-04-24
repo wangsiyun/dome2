@@ -1,0 +1,96 @@
+.center
+{
+	width: 100%;
+	min-width: 1300px;
+	height: 1900px;
+	margin: auto;
+	border-top:2px solid black;
+	border-bottom: 2px solid gray;
+}
+.center>div
+{
+	width: 1000px;
+	height: 1900px;
+	margin: auto;
+}
+.center>div>ul
+{
+	width: 650px;
+	height:1750px;
+	float: left;
+}
+.center>div>ul>li
+{
+	width: 650px;
+	height: 150px;
+	margin-top: 40px;
+	list-style: none;
+	border: 1px solid gainsboro;
+}
+.center>div>ul>li div
+{
+	margin-top: 10px;
+	width: 180px;
+	height: 100px;
+	float: left;
+	background:url(../img/sj.png) no-repeat center;
+	background-size:cover;
+}
+.center>div>ul>li p:nth-child(1)
+{
+	font-size: 20px;
+}
+.center>div>ul>li p:nth-child(3)
+{
+	width:450px;
+	height:auto;
+	margin-top: 8px;
+	float: right;
+	font-size: 17px;
+}
+.center>div>ul div
+{
+	width: 700px;
+	height: 30px;
+}
+.center>div>ul div ul
+{
+	margin-top:40px;
+	width: 700px;
+	height: 30px;
+}
+.center>div>ul div ul a
+{
+	color: black;
+}
+.center>div>ul div ul a:hover
+{
+	color: white;
+}
+.center>div>ul div ul li
+{
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	list-style: none;
+	float: left;
+	border:1px solid gainsboro;
+	border-left:none;
+}
+.center>div>ul div ul li:hover
+{
+	background: red;
+}
+.center>div>ul div ul li:nth-child(1)
+{
+	border-left:1px solid gainsboro;
+}
+
+.center_rigth
+{
+	margin-top: 50px;
+	float: right;
+	width: 300px;
+	height:1900px;
+}

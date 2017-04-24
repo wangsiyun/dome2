@@ -1,0 +1,123 @@
+html,body,div,table,form,fieldset,h1,h2,h3,h4,h5,h6,p,ol,ul,li,hr{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+li{
+	list-style: none;
+}
+.top{
+	width: 1000px;
+	height: 80px;
+	margin: auto;
+}
+.top_left{
+	width: 300px;
+	height: 80px;
+	background: url(../img/login_1.png) no-repeat center;
+	float: left;
+}
+.top_right{
+	width: 420px;
+	height: 80px;
+	background: url(../img/login_2.jpg) no-repeat center;
+	float: right;
+}
+.center{
+	width: 1300px;
+	height: 530px;
+	margin: auto;
+	background: url(../img/login_bg.jpg) no-repeat center;
+	position: relative;
+}
+.xin{
+	width: 800px;
+	height: 380px;
+	position: absolute;
+	top: 100px;
+	left: 220px;
+	background: rgba(255,255,255,0.5);  /*白色半透明效果*/
+}
+.xin_left{
+	width: 338px;
+	height: 380px;
+	float: left;
+	border-right:2px solid darkgray;
+	position:relative
+}
+
+.tb{
+	width: 220px;
+	height: 220px;
+	background: url(../img/erweima.png) no-repeat center;
+	position: absolute;
+	top: 35px;
+	left: 60px;
+}
+.xin_left p:nth-of-type(1){
+	line-height: 30px;
+	margin-top: 255px;
+    margin-left: 100px;
+	font-size: 24px;
+}
+.xin_left p:nth-of-type(2){
+    line-height: 20px;
+    font-size: 15px;
+    margin-left: 105px;
+}
+.xin_right{
+	width: 460px;
+	height: 380px;
+	float: right;
+}
+.xin_right ul{
+	width: 304px;
+	height: 330px;
+	margin: auto;	
+}
+.xin_right ul li{
+	line-height: 35px;
+	margin-top: 15px;
+}
+.xin_right ul li:nth-child(1){
+	text-align: center;
+}
+.yan{
+	width: 120px;
+	height: 30px;
+	background: url(../img/zm.gif);
+	float: right;
+}
+.xin_right ul li:nth-of-type(4) a{
+	color: white;
+	float: right;
+	background: coral;
+}
+	
+.xin_right ul li:nth-child(6){
+	background: chocolate;
+	text-align: center;
+}
+.xin_right ul li:nth-of-type(6) a{
+	color: white;
+}
+.xin_right ul li a:hover{
+	color: #dcea01;
+}
+.jiao{
+	width:100%;
+	height: 90px;
+	margin: auto;
+	background: gray;
+	position: relative;
+}
+.jiao ul li{
+	margin: auto;
+	width: 1000px;
+	height: 20px;
+	text-align: center;
+	padding-top: 8px;
+}

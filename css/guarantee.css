@@ -1,0 +1,52 @@
+.center {
+	width: 1000px;
+	height: 500px;
+	margin: auto;
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+}
+.center ul {
+	margin: 40px auto 0;
+	width: 400px;
+	height: 400px;
+}
+
+.center ul li {
+	width: 400px;
+	height: 50px;
+	line-height: 50px;
+	margin: 10px auto;
+	list-style: none;
+	text-align: center;
+}
+
+.center ul li input {
+	width: 400px;
+	height: 40px;
+	background: #5D1988;
+}
+.center ul li:nth-child(2){
+	color: chocolate;
+}
+.center ul li:nth-child(4){
+	width: 400px;
+	height: 70px;
+}
+.center ul li p{
+	    margin-bottom: -12px;
+	font-size: 14px;
+}
+.tu{
+	width: 120px;
+	height: 30px;
+	background: url(../img/zm.gif) no-repeat center;
+	margin: auto;
+}
+.center ul li:nth-child(6){
+	background:#FE6546;
+	
+}
+.center ul li a{
+	color: white;
+	font-size: 23px;
+}

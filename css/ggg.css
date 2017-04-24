@@ -1,0 +1,295 @@
+html,body,div,table,form,fieldset,h1,h2,h3,h4,h5,h6,p,ol,ul,li,hr{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+li{
+	list-style: none;
+}
+.tou{
+	width: 1000px;
+	min-height: auto;
+	margin: auto;	
+}
+.tou_1 p:nth-child(1){
+	display: inline-block;
+	float: left;
+}
+.tou_1 p:nth-child(2){
+	display: inline-block;
+	float: right;
+}
+.tou_1 p{
+	margin-top: 10px;
+}
+.tou_1 p a{
+	color: red;
+}
+.tou_2{
+	width: 960px;
+	height: 70px;
+	margin: 30px auto;
+}
+.tou_2_1{
+	width: 277px;
+	height: 46px;
+	background: url(../img/logo.png) no-repeat;
+	float: left;
+}
+.tou_2_2{
+	width: 365px;
+	height: 70px;
+	float: right;
+}
+.tou_2_2_1{
+	width: 295px;
+	height: 40px;
+	float: left;
+	font-size: 15px;
+}
+.tou_2_2_2{
+	width: 70px;
+	height: 40px;
+	float: right;
+	font-size: 18px;
+}
+.tou_2_2_3 a ul{
+	margin-top: 50px;
+}
+.tou_2_2_3 a ul li{
+	width: 65px;
+	height: 20px;
+	font-size: 13px;
+	display: inline-block;
+}
+.tou_3{
+	width: 700px;
+	height: 35px;
+
+}
+.tou_3 ul li{
+	display: inline-block;
+	line-height: 35px;
+	margin-left: 25px;
+}
+.tou_3 ul li:hover{
+	color: red;	
+	border-bottom:2px solid red ;
+}
+
+/*底下*/
+.bootom_center{
+	width: 640px;
+	height: 170px;
+	float: left;
+	margin-top: 10px;
+}
+.bootom_right{
+	width: 160px;
+	height: 170px;
+	float: right;
+	margin-top: 10px;
+}
+.bootom_center ul{
+	width: 122px;
+	height: 170px;
+	float: left;
+	margin-left: 5px;
+
+}
+.bootom_center ul li{
+	width: 110px;
+	height: 30px;
+	line-height: 30px;
+
+}
+.bootom_center ul li:nth-child(1){
+	font-size: 25px;
+}
+
+.ewm{
+	width: 100px;
+	height: 100px;
+	margin: 15px auto;
+	background:  url(../img/footerhide.png) no-repeat center;
+	background-size: cover;
+}
+.bootom_right p{
+	margin-left: 25px;
+	font-size: 15px;
+}
+.jiao{
+	width:100%;
+	height: 90px;
+	margin: auto;
+	background: lightcoral;
+	position: relative;
+}
+.jiao ul li{
+	margin: auto;
+	width: 1000px;
+	height: 20px;
+	text-align: center;
+	padding-top: 8px;
+}
+.fu{
+	width: 100%;
+	height: 90px;
+	position: absolute;
+	top: 0;
+	background: url(../img/footerbanner.png) no-repeat center;
+	/*background: rgba(0,0,0,0.5);*/
+}
+
+
+/*底下*/
+.bottom{
+	width: 1000px;
+	height: 300px;
+	margin: auto;
+	margin-top: 10px;
+}
+.bottom_lg{
+	width: 968px;
+	height: 70px;
+	background:url(../img/bj2_03.png) no-repeat;
+	margin-left: 15px;
+	margin-top: 10px;
+}
+.bootom_left{
+	width: 200px;
+	height: 170px;
+	float: left;
+	margin-top: 10px;
+}
+.zhao{
+	width: 200px;
+	height: 50px;
+	background: url(../img/aboutlogo.jpg) no-repeat center;
+	background-size: cover;
+	margin-top: 10px;
+}
+.bootom_left ul li{
+	width: 200px;
+	height: 35px;
+	line-height: 35px;
+}
+.bootom_left ul li p{
+	display: inline-block;
+	float: left;
+}
+.bootom_left ul li:nth-child(2){
+	font-size: 20px;
+}
+.bootom_left ul li:nth-child(3){
+	color: gray;
+	font-size: 15px;
+}
+.wei{
+	width: 34px;
+    height: 33px;
+    background: url(../img/icon-sprite.png) no-repeat;
+    background-position: 0 -2331px;
+    float: left;
+    position: relative;
+    margin-left: 6px;
+}
+.erwm{
+	width: 100px;
+	height: 100px;
+	background: url(../img/erweima.png) no-repeat center;
+	background-size: cover;
+	position: absolute;
+	top: -100px;
+    left: -35px;
+    display: none;
+}
+.wei:hover .erwm{
+	display: block;
+}
+.xin{
+	width: 34px;
+    height: 33px;
+    background: url(../img/icon-sprite.png) no-repeat;
+    background-position: 0 -2298px;  /*图片定位方法*/
+    float: left;
+    position: relative;	
+    margin-left: 25px;
+}
+.weim{
+	width: 100px;
+	height: 100px;
+	background: url(../img/erweima.png) no-repeat center;
+	background-size: cover;
+	position: absolute;
+	top: -100px;
+    left: -35px;
+    display: none;
+}
+.xin:hover .weim{
+	display: block;
+}
+.bootom_center{
+	width: 640px;
+	height: 170px;
+	float: left;
+	margin-top: 10px;
+}
+.bootom_right{
+	width: 160px;
+	height: 170px;
+	float: right;
+	margin-top: 10px;
+}
+.bootom_center ul{
+	width: 110px;
+    height: 170px;
+    float: left;
+    margin-left: 18px;
+
+}
+.bootom_center ul li{
+	width: 110px;
+	height: 30px;
+	line-height: 30px;
+
+}
+.bootom_center ul li{
+	font-size: 14px;
+}
+.bootom_center ul li:hover a{
+	color: red;
+	background: darkgray;
+}
+.bootom_center ul li:nth-child(1){
+	font-size: 22px;
+}
+
+.ewm{
+	width: 100px;
+	height: 100px;
+	margin: 15px auto;
+	background:  url(../img/footerhide.png) no-repeat center;
+	background-size: cover;
+}
+.bootom_right p{
+	margin-left: 25px;
+	font-size: 15px;
+}
+.jiao{
+	width:100%;
+	height: 90px;
+	margin: auto;
+	background: gray;
+	position: relative;
+}
+.jiao ul li{
+	margin: auto;
+	width: 1000px;
+	height: 20px;
+	text-align: center;
+	padding-top: 8px;
+}
